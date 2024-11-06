@@ -6,8 +6,8 @@
  * A user-id containing a colon (":") character is invalid, as the
  * first colon in a user-pass string separates user and password.
  */
-const BASIC_USER = "ts-puzzle"
-const BASIC_PASS = "cloudflare"
+const BASIC_USER = "puragu-hackathon"
+const BASIC_PASS = "aoyamagakuin"
 
 async function errorHandling(context) {
   try {
