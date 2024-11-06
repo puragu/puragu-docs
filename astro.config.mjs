@@ -6,21 +6,20 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Puragu',
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
+					label: "開発方法", link:"/"
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: '勉強会',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'ts-puzzle', slug: 'study/ts-puzzle' },
+					],
 				},
 			],
 		}),
