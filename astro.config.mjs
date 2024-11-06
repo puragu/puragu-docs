@@ -7,8 +7,11 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Puragu',
-			social: {
-				github: 'https://github.com/withastro/starlight',
+			locales: {
+				root: {
+					label: "日本語",
+					lang: "ja"
+				}
 			},
 			sidebar: [
 				{
