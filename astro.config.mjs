@@ -12,14 +12,11 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: "開発方法", link:"/"
+					label: "開発方法", link: "/"
 				},
 				{
 					label: '勉強会',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'ts-puzzle', slug: 'study/ts-puzzle' },
-					],
+					autogenerate: { directory: "study" }
 				},
 			],
 		}),
